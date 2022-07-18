@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Template/boilerplate for doing a design system based in Tailwind css framework with Webpack@5 and Storybook",
   "main": "dist/index.js",
+  "author": "nehuen-covelo",
+  "license": "MIT",
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
@@ -15,12 +17,15 @@
     "format": "prettier write .",
     "test-all": "npm run check-format && npm run check-lint && npm"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": ".husky/pre-commit"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ElTupac/another-ds-template.git"
   },
-  "author": "nehuen-covelo",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ElTupac/another-ds-template/issues"
   },
