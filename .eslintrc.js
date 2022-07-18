@@ -16,9 +16,10 @@ module.exports = {
   },
   plugins: ["react"],
   rules: {
+    "import/no-extraneous-dependencies": "off",
     "import/no-unresolved": "off",
     "react/jsx-props-no-spreading": "off",
-    "no-console": ["warn", { allow: ["warn", "error"] }],
+    "no-console": "off",
     "react/function-component-definition": "off",
     "react/jsx-filename-extension": "off",
     "react/react-in-jsx-scope": "off",

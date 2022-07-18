@@ -24,14 +24,5 @@ npm run check-lint ||
     false;
 )
 
-# If everything passes... Now we can build
-echo "🔥🚀 ${BOLD}All passed... Now we can build.${NC} 🚀🔥"
-
-#npm run build ||
-(
-    echo "\n ❌🟩 Next build ${RED}Failed${NC}. 🟩❌\n View the errors above to see why. \n"
-    false;
-)
-
 # If everything passes... Now we can commit
 echo "\n ✅✅ ${GREEN}Build is completed... I'm commiting this now${NC}. ✅✅ \n"
