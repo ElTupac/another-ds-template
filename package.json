@@ -15,5 +15,72 @@
   "bugs": {
     "url": "https://github.com/ElTupac/another-ds-template/issues"
   },
-  "homepage": "https://github.com/ElTupac/another-ds-template#readme"
+  "homepage": "https://github.com/ElTupac/another-ds-template#readme",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "peerDependencies": {
+    "react": "16.3.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "16.3.0 || ^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@storybook/addon-actions": "^6.4.22",
+    "@storybook/addon-essentials": "^6.4.22",
+    "@storybook/addon-interactions": "^6.4.22",
+    "@storybook/addon-links": "^6.4.22",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/builder-webpack5": "^6.4.22",
+    "@storybook/manager-webpack5": "^6.4.22",
+    "@storybook/react": "^6.4.22",
+    "@storybook/testing-library": "0.0.11",
+    "@uiw/react-textarea-code-editor": "^2.0.2",
+    "autoprefixer": "^10.4.4",
+    "babel-loader": "^8.2.4",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "css-loader": "^6.7.1",
+    "cssnano": "^5.1.7",
+    "eslint": "8.6.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "html-webpack-plugin": "^5.5.0",
+    "husky": "^8.0.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "postcss": "^8.4.12",
+    "postcss-cli": "^9.1.0",
+    "postcss-import": "^14.1.0",
+    "postcss-loader": "^6.2.1",
+    "prettier": "^2.6.2",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-scripts": "^5.0.1",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "tailwindcss": "^3.0.23",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "@heroicons/react": "^1.0.6",
+    "husky": "^8.0.1",
+    "prop-types": "^15.8.1"
+  }
 }
