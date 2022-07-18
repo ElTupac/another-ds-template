@@ -1,6 +1,17 @@
+const { Sizes } = require("./src/ds/Sizes");
+
 module.exports = {
   content: ["./ds/**/*.css", "./ds/**/*.js", "./src/**/*.js"],
-  safelist: [],
+  safelist: [
+    {
+      pattern: /(bg|text|border|stroke)-(main|brand|social)/,
+      variants: ["hover", "focus", "disabled"],
+    },
+    {
+      pattern: new RegExp(`(${[...Object.keys(Sizes)].join("|")})`),
+      vaiants: ["hover", "focus", "disabled"],
+    },
+  ],
   theme: {
     extend: {
       /* Fonts */
@@ -10,6 +21,21 @@ module.exports = {
       },
       /* Colors */
       colors: {
+        main: {
+          100: "#1A1A1A",
+          90: "#373D43",
+          80: "#777A7C",
+          50: "#C7D3D9",
+          30: "#E1E9EF",
+          20: "#F7F9FC",
+        },
+        brand: {
+          accent: {
+            yellow: "#FFD93D",
+            green: "#4ADB95",
+            blue: "#4793EF",
+          },
+        },
         social: {
           whatsapp: "#128C7E",
           linkedin: "#2E67C2",
@@ -23,9 +49,9 @@ module.exports = {
         none: "0px",
         small: "8px",
         medium: "16px",
-        large: "25px", // Impossible to do 40% as the figma shows
+        large: "25px",
         circular: "50%",
-        pill: "1000px", // This is the only way to make a pill border radius
+        pill: "1000px",
       },
       borderWidth: {
         none: "0px",
@@ -46,6 +72,10 @@ module.exports = {
         "level-2": "0px 8px 24px 0px rgba(26, 26, 26, 0.1)",
         "level-3": "0px 16px 32px rgba(26, 26, 26, 0.1)",
         "level-4": "0px 16px 48px rgba(26, 26, 26, 0.1)",
+      },
+      /* Spacing */
+      spacing: {
+        ...Sizes,
       },
     },
   },
