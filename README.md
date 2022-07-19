@@ -1,3 +1,6 @@
+[![HitCount](https://hits.dwyl.com/ElTupac/another-ds-template.svg?style=flat)](http://hits.dwyl.com/ElTupac/another-ds-template)
+![GitHub Repo stars](https://img.shields.io/github/stars/ElTupac/another-ds-template?style=social)![GitHub forks](https://img.shields.io/github/forks/ElTupac/another-ds-template?style=social)
+
 # Another design system
 
 ## Project description
@@ -19,6 +22,7 @@ This project aims to create a template/boilerplate that is easy to use, robust, 
 <hr>
 
 # How to start:
+Now this will be a guide on how will start your journey to use this amazing template/boilerplate.
 
 ## Fork the template:
 You can start your own Design System just clicking in the link to use use the template: [Use this template](https://github.com/ElTupac/another-ds-template/generate). This will guide you through creating a new repository based on this boilerplate.
