@@ -16,12 +16,15 @@ This project aims to create a template/boilerplate that is easy to use, robust, 
  - **Prettier**: The proyect has Prettier installed and also a configuration that overrides whatever one you have in your code editor. This way all the devs will format the code the same way without adding useless code modifications to the commits.
  - **Husky**: This library helps to automatize tasks, like checking linter and formatting of the code before commiting, this way the devs avoid uploading code that is not approaching the code quality we are looking for.
 
-<br>
 <hr>
 
-**WIP**
+# How to start:
 
-<hr>
+## Fork the template:
+You can start your own Design System just clicking in the link to use use the template
+
+<a class="btn btn-primary ml-2" href="/ElTupac/another-ds-template/generate">Use this template</a>
+
 <br>
 
 ## Next steps:
