@@ -30,7 +30,7 @@ const CodeExample = ({
   </>
 );
 
-CodeExample.propTypes = {
+export const CodeExamplePropTypes = {
   name: PropTypes.string,
   additionalImport: PropTypes.string,
   exampleImplementation: PropTypes.string,
@@ -38,5 +38,7 @@ CodeExample.propTypes = {
   className: PropTypes.string,
   children: PropTypes.oneOfType([PropTypes.element, PropTypes.func]),
 };
+
+CodeExample.propTypes = CodeExamplePropTypes;
 
 export default CodeExample;

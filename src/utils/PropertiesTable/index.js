@@ -30,7 +30,7 @@ const PropertiesTable = ({ propsInfo = [] }) => (
   </div>
 );
 
-PropertiesTable.propTypes = {
+export const PropertiesTablePropTypes = {
   propsInfo: PropTypes.arrayOf(
     PropTypes.shape({
       name: PropTypes.string.isRequired,
@@ -40,5 +40,7 @@ PropertiesTable.propTypes = {
     })
   ),
 };
+
+PropertiesTable.propTypes = PropertiesTablePropTypes;
 
 export default PropertiesTable;
