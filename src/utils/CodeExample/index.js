@@ -11,10 +11,10 @@ const CodeExample = ({
   subFolder,
 }) => (
   <>
-    <div className={`flex items-center justify-center ${className}`}>
+    <div className={`flex items-center justify-center my-10 ${className}`}>
       {children}
     </div>
-    <div className="mt-20">
+    <div>
       <h3 className="col-span-4 lg:col-span-12">Example usage</h3>
       <CodeEditor
         className="col-span-4 lg:col-span-6"

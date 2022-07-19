@@ -3,7 +3,7 @@ const CodeStringTemplate = ({
   additionalImport = "",
   exampleImplementation,
   subFolder = "",
-}) => `import ${name} from "inventa-design-system${subFolder}";
+}) => `import ${name} from "my-package-name${subFolder}";
 ${additionalImport}
 
 const MyComponent = () => (

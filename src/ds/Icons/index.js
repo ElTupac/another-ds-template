@@ -12,7 +12,7 @@ const Icons = {
   outline: IconsOutline,
 };
 
-const Icon = ({ name, layout = "solid", size = "sm" }) => {
+const Icon = ({ name, layout = "solid", size = "md" }) => {
   if (!Icons[layout][name]) return "";
   const IconElement = Icons[layout][name];
   return (

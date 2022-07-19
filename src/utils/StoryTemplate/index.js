@@ -10,7 +10,7 @@ const StoryTemplate = ({
   exampleImplementation,
   subFolder,
 }) => (
-  <div>
+  <div className="gap-y-5 flex flex-col">
     <CodeExample
       className={className}
       name={name}
