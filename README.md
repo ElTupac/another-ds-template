@@ -21,9 +21,7 @@ This project aims to create a template/boilerplate that is easy to use, robust, 
 # How to start:
 
 ## Fork the template:
-You can start your own Design System just clicking in the link to use use the template
-
-<a class="btn btn-primary ml-2" href="/ElTupac/another-ds-template/generate">Use this template</a>
+You can start your own Design System just clicking in the link to use use the template: <a target="_blank" href="/ElTupac/another-ds-template/generate">Use this template</a>. This will guide you through creating a new repository based on this boilerplate.
 
 <br>
 
